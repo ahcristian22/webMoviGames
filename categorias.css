@@ -1,0 +1,121 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+}
+
+#logo {
+    height: 100%;
+    filter: brightness(110%);
+
+}
+
+nav {
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    text-align: right;
+
+}
+
+#lupa,
+#usuario,
+#principal {
+    height: 20px;
+    margin-right: 20px;
+}
+
+#usuario:hover {
+    height: 25px;
+}
+
+
+h1 {
+    color: rgb(238, 233, 233);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18PX;
+}
+
+h1:hover {
+    background-color: rgb(210, 113, 57);
+    font-size: 18px;
+}
+
+
+#aside_article {
+    display: flex;
+    align-items: stretch;
+}
+
+article {
+    width: 88%;
+    height: 585px;
+    background-color: rgb(6, 16, 30);
+
+}
+
+aside {
+    width: 12%;
+    height: 585px;
+    background-color: black;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#l_w {
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#link {
+    text-decoration: none;
+}
+
+label{
+    color: rgb(210, 113, 57);
+    font-family: fantasy;
+}
+#contactanos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-right: 40px;
+
+}
+
+#titulo {
+    margin-left: 20px;
+    color: rgb(238, 233, 233);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48PX;
+}
+
+#fila1 {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#link {
+    text-decoration: none;
+}
+
+#portadas {
+    width: 250px;
+    border-color: white;
+    border-style: solid;
+
+}

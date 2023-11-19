@@ -1,0 +1,216 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+
+}
+
+#logo {
+    height: 100%;
+    filter: brightness(110%);
+}
+
+nav {
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    text-align: right;
+
+}
+
+#principal {
+    height: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(238, 233, 233);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18PX;
+}
+
+h1:hover {
+    background-color: rgb(214, 124, 39);
+    font-size: 18px;
+}
+
+
+
+article {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 595px;
+    background-color: rgb(6, 16, 30);
+}
+
+
+
+
+footer {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#l_w {
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#link {
+    text-decoration: none;
+}
+#text_footer {
+
+    color: rgb(210, 113, 57);
+    font-family: fantasy;
+
+}
+#contactanos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-right: 40px;
+
+}
+/*codigo css del login*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgb(214, 124, 39);
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #FFF;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid rgb(214, 124, 39);
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .3s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+
+}
+
+.input-box ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    color: rgb(214, 124, 39);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(214, 124, 39);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+
+.register p a {
+    text-decoration: none;
+    color: rgb(214, 124, 39);
+    font-weight: 600;
+
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
+
